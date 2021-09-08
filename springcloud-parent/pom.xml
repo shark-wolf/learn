@@ -1,9 +1,29 @@
-# nacos 和 openfeign 整合
-**服务熔断使用hystrix**
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>learn</artifactId>
+        <groupId>com.demo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-**使用dependencyManagement方式引入**
-~~~xml
-<dependencyManagement>
+    <artifactId>springcloud-parent</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>alibabacloud</module>
+        <module>springcloud</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+
+
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
@@ -32,4 +52,5 @@
 
         </dependencies>
     </dependencyManagement>
-~~~
+
+</project>
