@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>app-provider</artifactId>
+    <artifactId>ali-app-provider</artifactId>
+    <name>ali-app-provider</name>
 
     <dependencies>
         <!--用于读取bootstrap.yml文件-->

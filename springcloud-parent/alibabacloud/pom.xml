@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>app-provider</module>
-        <module>app-consumer</module>
+        <module>ali-app-provider</module>
+        <module>ali-app-consumer</module>
     </modules>
 
     <properties>

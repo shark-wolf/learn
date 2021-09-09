@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>app-consumer</artifactId>
+    <artifactId>ali-app-consumer</artifactId>
+    <name>ali-app-consumer</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>

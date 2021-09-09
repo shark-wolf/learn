@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: app-provider
+  cloud:
+    nacos:
+#      config:
+#        server-addr: nc.cd.pcooker.com:80
+#        file-extension: yml
+      discovery:
+        server-addr: nc.cd.pcooker.com:80
+        group: mygroup
+
+server:
+  port: 81
